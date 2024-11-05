@@ -1,0 +1,9 @@
+{
+	"name": "midhunadf12345",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7276dd65-1a39-46aa-b2f2-367b576cd4cd",
+		"tenantId": "c417db2c-45c2-4da2-8b4f-3729df9bece1"
+	}
+}
