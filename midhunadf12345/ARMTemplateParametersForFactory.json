@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "midhunadf12345"
+		},
+		"ADLSg2_LS_accountKey": {
+			"value": ""
+		},
+		"AdventueworksSQLDB_LS_password": {
+			"value": ""
+		},
+		"ADLSg2_LS_properties_typeProperties_url": {
+			"value": "https://midhundatalakedemo.dfs.core.windows.net/"
+		},
+		"AdventueworksSQLDB_LS_properties_typeProperties_server": {
+			"value": "midhuntrainingsql.database.windows.net"
+		},
+		"AdventueworksSQLDB_LS_properties_typeProperties_database": {
+			"value": "Adventureworks"
+		},
+		"AdventueworksSQLDB_LS_properties_typeProperties_userName": {
+			"value": "midhun"
+		}
+	}
+}
