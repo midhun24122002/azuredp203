@@ -1,0 +1,17 @@
+{
+	"name": "AdventueworksSQLDB_LS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "midhuntrainingsql.database.windows.net",
+			"database": "Adventureworks",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "midhun",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBGMDhGMzM1LTY2NzMtNDZBRS1CN0UwLTVBMjg4QTRGNDk2MV8yZGM4NjhiZi0zNzJjLTRhMmYtOWMzNi1lZGEzMzI3MDQ0NzMiDQp9"
+		}
+	}
+}
