@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdventueworksSQLDB_LS'"
 		},
+		"GenericAzureSQLDB_LS_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'GenericAzureSQLDB_LS'"
+		},
 		"ADLSg2_LS_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://midhundatalakedemo.dfs.core.windows.net/"
@@ -28,6 +32,18 @@
 			"defaultValue": "Adventureworks"
 		},
 		"AdventueworksSQLDB_LS_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "midhun"
+		},
+		"GenericAzureSQLDB_LS_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "@{linkedService().ServerName}"
+		},
+		"GenericAzureSQLDB_LS_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "@{linkedService().DatabaseName}"
+		},
+		"GenericAzureSQLDB_LS_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "midhun"
 		},
@@ -64,6 +80,9 @@
 					"AdventueworksSQLDB_LS_password": {
 						"value": "[parameters('AdventueworksSQLDB_LS_password')]"
 					},
+					"GenericAzureSQLDB_LS_password": {
+						"value": "[parameters('GenericAzureSQLDB_LS_password')]"
+					},
 					"ADLSg2_LS_properties_typeProperties_url": {
 						"value": "[parameters('ADLSg2_LS_properties_typeProperties_url')]"
 					},
@@ -75,6 +94,15 @@
 					},
 					"AdventueworksSQLDB_LS_properties_typeProperties_userName": {
 						"value": "[parameters('AdventueworksSQLDB_LS_properties_typeProperties_userName')]"
+					},
+					"GenericAzureSQLDB_LS_properties_typeProperties_server": {
+						"value": "[parameters('GenericAzureSQLDB_LS_properties_typeProperties_server')]"
+					},
+					"GenericAzureSQLDB_LS_properties_typeProperties_database": {
+						"value": "[parameters('GenericAzureSQLDB_LS_properties_typeProperties_database')]"
+					},
+					"GenericAzureSQLDB_LS_properties_typeProperties_userName": {
+						"value": "[parameters('GenericAzureSQLDB_LS_properties_typeProperties_userName')]"
 					}
 				}
 			},

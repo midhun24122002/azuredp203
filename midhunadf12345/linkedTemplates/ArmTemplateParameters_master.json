@@ -11,6 +11,9 @@
 		"AdventueworksSQLDB_LS_password": {
 			"value": ""
 		},
+		"GenericAzureSQLDB_LS_password": {
+			"value": ""
+		},
 		"ADLSg2_LS_properties_typeProperties_url": {
 			"value": "https://midhundatalakedemo.dfs.core.windows.net/"
 		},
@@ -21,6 +24,15 @@
 			"value": "Adventureworks"
 		},
 		"AdventueworksSQLDB_LS_properties_typeProperties_userName": {
+			"value": "midhun"
+		},
+		"GenericAzureSQLDB_LS_properties_typeProperties_server": {
+			"value": "@{linkedService().ServerName}"
+		},
+		"GenericAzureSQLDB_LS_properties_typeProperties_database": {
+			"value": "@{linkedService().DatabaseName}"
+		},
+		"GenericAzureSQLDB_LS_properties_typeProperties_userName": {
 			"value": "midhun"
 		},
 		"containerUri": {
