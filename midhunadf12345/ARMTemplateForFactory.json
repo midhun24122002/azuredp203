@@ -79,7 +79,7 @@
 							{
 								"activity": "Set variable1",
 								"dependencyConditions": [
-									"Failed"
+									"Succeeded"
 								]
 							}
 						],
@@ -136,7 +136,7 @@
 							{
 								"activity": "Execute Pipeline1",
 								"dependencyConditions": [
-									"Succeeded"
+									"Failed"
 								]
 							}
 						],
