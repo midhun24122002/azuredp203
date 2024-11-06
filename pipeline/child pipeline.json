@@ -10,7 +10,6 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
 				"typeProperties": {
 					"variableName": "myvar",
 					"value": "hcjh"
@@ -23,7 +22,7 @@
 					{
 						"activity": "Set variable1",
 						"dependencyConditions": [
-							"Succeeded"
+							"Failed"
 						]
 					}
 				],
