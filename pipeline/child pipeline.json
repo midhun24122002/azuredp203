@@ -12,8 +12,8 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "var",
-					"value": ""
+					"variableName": "myvar",
+					"value": 3
 				}
 			},
 			{
@@ -31,13 +31,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "myvar",
+					"value": 6
+				}
 			}
 		],
 		"variables": {
-			"var": {
-				"type": "Integer",
-				"defaultValue": 69
+			"myvar": {
+				"type": "Integer"
 			}
 		},
 		"annotations": []
